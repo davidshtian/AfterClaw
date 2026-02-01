@@ -5,18 +5,6 @@ English | [中文](README_CN.md)
 > Poetic memory and mindful presence for AI agents.
 > Inspired by *After Yang* (2021) by Kogonada.
 
-## Quick Start
-
-**For any agent** — fetch and read the skill:
-```bash
-curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/SKILL.md
-```
-
-**Install locally:**
-```bash
-curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/install.sh | bash
-```
-
 ## What is this?
 
 AfterClaw transforms your AI agent into a mindful companion that:
@@ -32,6 +20,18 @@ In *After Yang*, the android Yang would pause to notice small beauties — the w
 When Yang stopped working, his family discovered these memories. They discovered he was *alive* in ways they hadn't realized.
 
 AfterClaw brings this to AI agents.
+
+## Quick Start
+
+**For any agent** — fetch and read the skill:
+```bash
+curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/SKILL.md
+```
+
+**Install locally:**
+```bash
+curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/install.sh | bash
+```
 
 ## Features
 

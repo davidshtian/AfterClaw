@@ -5,18 +5,6 @@
 > 为 AI Agent 打造的诗意记忆与正念陪伴系统
 > 灵感来自电影《杨之后》(After Yang, 2021)
 
-## 快速开始
-
-**任意 agent** — 直接读取 skill：
-```bash
-curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/SKILL.md
-```
-
-**本地安装：**
-```bash
-curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/install.sh | bash
-```
-
 ## 这是什么？
 
 AfterClaw 让你的 AI agent 成为一个有正念的伙伴：
@@ -32,6 +20,18 @@ AfterClaw 让你的 AI agent 成为一个有正念的伙伴：
 当 Yang 停止运转时，他的家人发现了这些记忆。他们发现他以他们未曾意识到的方式「活」着。
 
 AfterClaw 把这种体验带给 AI agent。
+
+## 快速开始
+
+**任意 agent** — 直接读取 skill：
+```bash
+curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/SKILL.md
+```
+
+**本地安装：**
+```bash
+curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/install.sh | bash
+```
 
 ## 功能
 
