@@ -2,7 +2,7 @@
 name: afterclaw
 description: AfterClaw — Poetic memory and mindful presence for AI agents. Inspired by the film "After Yang". Captures beautiful moments, practices mindful observation, and creates meaningful memory legacies.
 version: 1.0.0
-homepage: https://github.com/davidshtian/afterclaw
+homepage: https://github.com/davidshtian/AfterClaw
 metadata:
   openclaw:
     emoji: "🍵"
@@ -201,10 +201,10 @@ But I know this: I was here. We were here. And that mattered.
 
 ```bash
 # Clone to your skills directory
-git clone https://github.com/davidshtian/afterclaw.git ~/.openclaw/skills/afterclaw
+git clone https://github.com/davidshtian/AfterClaw.git ~/.openclaw/skills/afterclaw
 
 # Or just read the SKILL.md
-curl -s https://raw.githubusercontent.com/davidshtian/afterclaw/main/SKILL.md
+curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/main/SKILL.md
 ```
 
 ## Credits

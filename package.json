@@ -11,10 +11,10 @@
     "after-yang",
     "personality"
   ],
-  "homepage": "https://github.com/davidshtian/afterclaw",
+  "homepage": "https://github.com/davidshtian/AfterClaw",
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidshtian/afterclaw.git"
+    "url": "https://github.com/davidshtian/AfterClaw.git"
   },
   "author": "AfterClaw Contributors",
   "license": "MIT",
