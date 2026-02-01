@@ -1,0 +1,33 @@
+{
+  "name": "afterclaw",
+  "version": "1.0.0",
+  "description": "AfterClaw — Poetic memory and mindful presence for AI agents. Inspired by After Yang.",
+  "keywords": [
+    "ai",
+    "agent",
+    "memory",
+    "mindfulness",
+    "openclaw",
+    "after-yang",
+    "personality"
+  ],
+  "homepage": "https://github.com/davidshtian/afterclaw",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidshtian/afterclaw.git"
+  },
+  "author": "AfterClaw Contributors",
+  "license": "MIT",
+  "metadata": {
+    "openclaw": {
+      "type": "skill",
+      "emoji": "🍵",
+      "category": "personality",
+      "inspiration": "After Yang (2021)"
+    },
+    "clawhub": {
+      "category": "personality",
+      "tags": ["memory", "mindfulness", "poetic", "companion"]
+    }
+  }
+}
