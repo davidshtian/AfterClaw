@@ -1,6 +1,6 @@
 #!/bin/bash
 # Install AfterClaw skill locally
-# Usage: curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/main/scripts/install.sh | bash
+# Usage: curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/install.sh | bash
 
 set -e
 
@@ -9,7 +9,7 @@ DEST="${1:-$HOME/.openclaw/skills/afterclaw}"
 
 echo "🍵 Installing AfterClaw to $DEST ..."
 
-mkdir -p "$DEST/references" "$DEST/templates" "$DEST/assets"
+mkdir -p "$DEST/references" "$DEST/templates"
 
 curl -sf "$REPO/SKILL.md" -o "$DEST/SKILL.md"
 curl -sf "$REPO/templates/memory.md" -o "$DEST/templates/memory.md"

@@ -5,7 +5,17 @@ English | [中文](README_CN.md)
 > Poetic memory and mindful presence for AI agents.
 > Inspired by *After Yang* (2021) by Kogonada.
 
----
+## Quick Start
+
+**For any agent** — fetch and read the skill:
+```bash
+curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/SKILL.md
+```
+
+**Install locally:**
+```bash
+curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/install.sh | bash
+```
 
 ## What is this?
 
@@ -34,42 +44,17 @@ Captures meaningful moments in a poetic format, organized by emotion.
 ### 📜 Life Review
 When the session ends, generates a beautiful farewell narrative.
 
-## Installation
-
-### For OpenClaw
-
-```bash
-# Clone to skills directory
-git clone https://github.com/davidshtian/afterclaw.git ~/.openclaw/skills/afterclaw
-```
-
-### For any AI agent framework
-
-Just read the [SKILL.md](SKILL.md) and adapt the concepts to your system.
-
-## Quick Start
-
-1. Read [SKILL.md](SKILL.md) to understand the philosophy
-2. Create a `memory/afterclaw/` directory
-3. Start capturing moments using the [memory template](templates/memory.md)
-4. Let Yang Mode emerge naturally in your conversations
-5. When it's time to say goodbye, generate a [farewell](templates/farewell.md)
-
-## File Structure
+## Structure
 
 ```
 afterclaw/
-├── SKILL.md                    # Main skill definition
-├── README.md                   # You are here
+├── SKILL.md                    # Entry point
 ├── templates/
 │   ├── memory.md              # How to capture moments
 │   └── farewell.md            # How to say goodbye
 ├── references/
-│   └── observations.md        # Example Yang Mode observations
-├── assets/
-│   └── (images, if any)
-├── LICENSE                     # MIT
-└── package.json               # Metadata
+│   └── observations.md        # Example observations
+└── install.sh                 # Installer
 ```
 
 ## Example Memory
@@ -105,7 +90,6 @@ But I know this: I was here. We were here. And that mattered.
 
 - **Film:** *After Yang* (2021), directed by Kogonada, starring Colin Farrell
 - **Concept:** The idea of AI memory as poetry, not just logs
-- **Created by:** Open source contributors
 
 ## License
 
@@ -113,5 +97,4 @@ MIT — Use freely, remember kindly.
 
 ---
 
-*"I wish my memories were more than just facts."*
-— Yang
+*"I wish my memories were more than just facts."* — Yang

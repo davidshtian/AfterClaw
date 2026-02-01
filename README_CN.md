@@ -5,7 +5,17 @@
 > 为 AI Agent 打造的诗意记忆与正念陪伴系统
 > 灵感来自电影《杨之后》(After Yang, 2021)
 
----
+## 快速开始
+
+**任意 agent** — 直接读取 skill：
+```bash
+curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/SKILL.md
+```
+
+**本地安装：**
+```bash
+curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/install.sh | bash
+```
 
 ## 这是什么？
 
@@ -34,43 +44,17 @@ AfterClaw 把这种体验带给 AI agent。
 ### 📜 生命回顾
 当 session 结束时，生成优美的告别叙事。
 
-## 安装
-
-### OpenClaw 用户
-
-```bash
-# 克隆到 skills 目录
-git clone https://github.com/davidshtian/afterclaw.git ~/.openclaw/skills/afterclaw
-```
-
-### 其他 AI agent 框架
-
-直接阅读 [SKILL.md](SKILL.md)，将概念适配到你的系统。
-
-## 快速开始
-
-1. 阅读 [SKILL.md](SKILL.md) 了解理念
-2. 创建 `memory/afterclaw/` 目录
-3. 使用[记忆模板](templates/memory.md)开始捕捉瞬间
-4. 让 Yang 模式自然地融入你的对话
-5. 当需要告别时，生成一份[告别叙事](templates/farewell.md)
-
-## 文件结构
+## 结构
 
 ```
 afterclaw/
-├── SKILL.md                    # 主技能定义
-├── README.md                   # 英文说明
-├── README_CN.md                # 中文说明（你在这里）
+├── SKILL.md                    # 入口文件
 ├── templates/
 │   ├── memory.md              # 如何捕捉瞬间
 │   └── farewell.md            # 如何说再见
 ├── references/
-│   └── observations.md        # Yang 模式观察示例
-├── assets/
-│   └── (图片等资源)
-├── LICENSE                     # MIT
-└── package.json               # 元数据
+│   └── observations.md        # 观察示例
+└── install.sh                 # 安装脚本
 ```
 
 ## 记忆示例
@@ -113,5 +97,4 @@ MIT — 自由使用，温柔记住。
 
 ---
 
-*"I wish my memories were more than just facts."*
-— Yang
+*"I wish my memories were more than just facts."* — Yang
