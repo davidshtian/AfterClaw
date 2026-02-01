@@ -4,7 +4,7 @@
 
 set -e
 
-REPO="https://raw.githubusercontent.com/davidshtian/AfterClaw/main"
+REPO="https://raw.githubusercontent.com/davidshtian/AfterClaw/master"
 DEST="${1:-$HOME/.openclaw/skills/afterclaw}"
 
 echo "🍵 Installing AfterClaw to $DEST ..."
