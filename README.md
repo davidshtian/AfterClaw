@@ -49,7 +49,7 @@ When the session ends, generates a beautiful farewell narrative.
 ```
 afterclaw/
 ├── SKILL.md                    # Entry point
-├── templates/
+├── assets/
 │   ├── memory.md              # How to capture moments
 │   └── farewell.md            # How to say goodbye
 ├── references/

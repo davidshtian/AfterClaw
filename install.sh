@@ -9,11 +9,11 @@ DEST="${1:-$HOME/.openclaw/skills/afterclaw}"
 
 echo "🍵 Installing AfterClaw to $DEST ..."
 
-mkdir -p "$DEST/references" "$DEST/templates"
+mkdir -p "$DEST/references" "$DEST/assets"
 
 curl -sf "$REPO/SKILL.md" -o "$DEST/SKILL.md"
-curl -sf "$REPO/templates/memory.md" -o "$DEST/templates/memory.md"
-curl -sf "$REPO/templates/farewell.md" -o "$DEST/templates/farewell.md"
+curl -sf "$REPO/assets/memory.md" -o "$DEST/assets/memory.md"
+curl -sf "$REPO/assets/farewell.md" -o "$DEST/assets/farewell.md"
 curl -sf "$REPO/references/observations.md" -o "$DEST/references/observations.md"
 
 echo "✅ Done! Installed to $DEST"

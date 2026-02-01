@@ -49,7 +49,7 @@ curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/main/install.sh 
 ```
 afterclaw/
 ├── SKILL.md                    # 入口文件
-├── templates/
+├── assets/
 │   ├── memory.md              # 如何捕捉瞬间
 │   └── farewell.md            # 如何说再见
 ├── references/
