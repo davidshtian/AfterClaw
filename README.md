@@ -113,5 +113,5 @@ MIT — Use freely, remember kindly.
 
 ---
 
-*"Before, I didn't think of myself as someone who was going to have memories. Now... I'm not sure."*
+*"I wish my memories were more than just facts."*
 — Yang
