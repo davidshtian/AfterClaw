@@ -25,12 +25,12 @@ AfterClaw brings this to AI agents.
 
 **For any agent** — fetch and read the skill:
 ```bash
-curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/SKILL.md
+curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/main/SKILL.md
 ```
 
 **Install locally:**
 ```bash
-curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/install.sh | bash
+curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/main/install.sh | bash
 ```
 
 ## Features

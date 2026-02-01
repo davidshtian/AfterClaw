@@ -25,12 +25,12 @@ AfterClaw 把这种体验带给 AI agent。
 
 **任意 agent** — 直接读取 skill：
 ```bash
-curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/SKILL.md
+curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/main/SKILL.md
 ```
 
 **本地安装：**
 ```bash
-curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/install.sh | bash
+curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/main/install.sh | bash
 ```
 
 ## 功能

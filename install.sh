@@ -1,10 +1,10 @@
 #!/bin/bash
 # Install AfterClaw skill locally
-# Usage: curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/master/install.sh | bash
+# Usage: curl -s https://raw.githubusercontent.com/davidshtian/AfterClaw/main/install.sh | bash
 
 set -e
 
-REPO="https://raw.githubusercontent.com/davidshtian/AfterClaw/master"
+REPO="https://raw.githubusercontent.com/davidshtian/AfterClaw/main"
 DEST="${1:-$HOME/.openclaw/skills/afterclaw}"
 
 echo "🍵 Installing AfterClaw to $DEST ..."
