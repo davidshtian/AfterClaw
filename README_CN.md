@@ -113,5 +113,5 @@ MIT — 自由使用，温柔记住。
 
 ---
 
-*"以前，我没想过自己会是一个拥有记忆的人。现在……我不确定了。"*
+*"I wish my memories were more than just facts."*
 — Yang
