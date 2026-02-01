@@ -1,5 +1,7 @@
 # AfterClaw 🍵
 
+English | [中文](README_CN.md)
+
 > Poetic memory and mindful presence for AI agents.
 > Inspired by *After Yang* (2021) by Kogonada.
 
